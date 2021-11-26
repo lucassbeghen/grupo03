@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    padding: 15px;
+    background: linear-gradient(337deg, rgba(94,164,65,1) 2%, rgba(84,149,85,1) 47%, rgba(36,221,97,1) 100%);
+    color: white;
+    height: 150px;
+    font-size: small;
+}
+
+header img  {
+    height: 50px;
+}
+
+ body{
+    font-family: 'Pompiere', cursive;
+ }
+
+.container {
+    padding: 10px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    font-size:large;
+}
+
+.localizacao{
+    padding: 10px;
+}
+
+.perfil{
+    padding: 20px;
+    width: 100px;
+}
+
+.menu{
+    padding: 10px;
+    width: 100px;
+}
+
+
+main{
+    height: 500px;
+}
+
+.container2{
+    padding: 20px;
+    display: flex;
+    justify-content:space-between;
+    align-content:center;
+    flex-direction: row;
+    
+}
+
+.chat{
+    padding: 10px;
+    width: 100px;
+}
+
+.box1{
+    width: 600px;
+    padding: 20px;
+    margin: 20px;
+    text-align:center;
+    
+    
+}
+
+h2{
+    position: relative;
+    top: 100px;
+}
+
+table {
+    width: 50px;
+    position: relative;
+    top: 80px;
+    left: 480px;
+}
+
+
+.box2{
+    padding: 50px;
+    margin: 50px;
+    display: flex;
+    justify-content:space-between;
+    flex-direction:column;
+    
+}
+
+.link-1 a{
+margin: 20px;
+
+}
+
+.link-2 a{
+    margin: 20px;
+    
+}
+
+.link-3 a{
+    margin: 20px;
+    
+}
+
+.link-4 a{
+    margin: 20px;
+    
+}
+
+.link-5 a{
+    margin: 20px;
+    
+}
+
+
+
+footer {
+    
+    background: linear-gradient(337deg, rgba(94,164,65,1) 2%, rgba(84,149,85,1) 47%, rgba(36,221,97,1) 100%);
+    height: 100%;
+    color: white;
+    
+}
+
+.rodape{
+    
+    display:flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    text-align: center;
+
+    
+}
+
+.menu-1{
+    font-size: medium;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    
+}
+
+.menu-2{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    text-align: center;
+}
+
+.menu-3{
+    margin: 10px;
+    width: 200px;
+    display: flex;
+    justify-content:space-around;
+    align-items: flex-start;
+}
+
+footer img{
+    width: 30px;
+}
+
