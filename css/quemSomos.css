@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Pompiere', cursive;
+}
+
+header{
+    max-width: 100%;
+   flex-wrap: wrap;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   background: rgb(94,164,65);
+   background: linear-gradient(337deg, rgba(94,164,65,1) 2%, rgba(84,149,85,1) 47%, rgba(36,221,97,1) 100%);
+   color:aliceblue;
+   font-family: 'Pompiere', cursive;
+   box-shadow: 1px 2px 8px  rgba(39, 41, 41, 0.74);
+   }
+   
+
+.container-principal{
+    display: flex;
+    padding: 100px;
+    margin: 50px;
+    align-items: center;
+    justify-content: space-between;
+    border: 3px solid rgba(94, 164, 65, 0.856);
+    gap: 50px;
+}
+
+.imagem-produtos{
+    height: 800px;
+    width: 500px;
+    box-shadow:1px 3px 3px rgba(124, 124, 134, 0.856);
+
+  }
+
+
+.container-3{
+
+    text-align: center;
+    font-size: 20px;
+}
+
+.titilo-principal{
+    color: rgb(94,164,65);
+    padding: 30px;
+
+}
+
+.paragrafo{
+    color: rgb(104, 101, 101);
+}
+
+footer{
+	max-width: 100%;
+	flex-wrap:wrap;
+	display: flex;
+	justify-content: space-between;
+	align-items:flex-end;
+	background: rgb(94,164,65);
+	background: linear-gradient(337deg, rgba(94,164,65,1) 2%, rgba(84,149,85,1) 47%, rgba(36,221,97,1) 100%);
+	font-family: 'Pompiere', cursive;
+	color: aliceblue;
+  }
